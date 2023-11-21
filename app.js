@@ -33,10 +33,10 @@ const fromYenToPound = function(valueInYen) {
     // convertimos el valor a pound
     let valueInEuro = valueInYen / 156.5;
     let valueInPound = valueInEuro * 0.87;
-    return valueInPound
+    return valueInPound;
 }
 
-module.exports = { fromEuroToDollar, fromDollarToYen, fromYenToPound}
+module.exports = {fromEuroToDollar, fromDollarToYen, fromYenToPound}
 
 
 
